@@ -6,23 +6,25 @@ import SocialLists from "@/components/Socials/SocialLists";
 import Footer from "@/components/Footer/Footer";
 import { ThemeProvider } from "@/providers/theme-provider";
 import SideNavbar from "@/components/SideNavbar/SideNavbar";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-Space_Grotesk",
   subsets: ["latin"],
-  weight: ['400', '500', '600', '700'],
+  weight: ["400", "500", "600", "700"],
 });
 
 const ibmPlexMono = IBM_Plex_Mono({
   variable: "--font-IBM_Plex_Mono",
   subsets: ["latin"],
-  weight: ['400', '500', '600', '700'],
-})
+  weight: ["400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Kesheng • Portfolio",
-  description: "Kesheng's personal portfolio showcasing projects, skills, and experience.",
+  description:
+    "Kesheng's personal portfolio showcasing projects, skills, and experience.",
 };
 
 export default function RootLayout({
@@ -55,6 +57,7 @@ export default function RootLayout({
           </div>
         </ThemeProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
