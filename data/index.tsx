@@ -15,6 +15,7 @@ import {
   perfectidLogo,
   webDesignIcon,
   webDevIcon,
+  facebookIcon,
 
   FastAPI,
   Django,
@@ -33,9 +34,8 @@ import {
   React,
   Gitlab,
   XLogo,
-  facebookIcon,
 } from "@/app/assets/assets";
-import { Github, Instagram, Linkedin } from "lucide-react";
+import { Github, Instagram, Linkedin} from "lucide-react";
 
 import {
   counterListsType,
@@ -460,6 +460,6 @@ export const followerData: FollowerData[] = [
     platform: "Facebook",
     followers: "3.2K",
     url: "https://www.facebook.com/",
-    icon: facebookIcon,
+    icon: facebookIcon
   },
 ];

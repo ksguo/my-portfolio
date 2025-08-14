@@ -9,23 +9,19 @@ export default function Navbar() {
 
   const formatTime = (num: number): string => (num < 10 ? `0${num}` : `${num}`);
 
+  useEffect(() => {
   const updateTime = () => {
     const today = new Date();
     const hh = today.getHours();
     const mm = today.getMinutes();
     const ss = today.getSeconds();
-
-    const formattedTime = `${formatTime(hh)}:${formatTime(mm)}:${formatTime(
-      ss
-    )}`;
+    const formattedTime = `${formatTime(hh)}:${formatTime(mm)}:${formatTime(ss)}`;
     setTime(formattedTime);
   };
-
-  useEffect(() => {
-    updateTime();
-    const intervalId = setInterval(updateTime, 1000);
-    return () => clearInterval(intervalId);
-  }, []);
+  updateTime();
+  const intervalId = setInterval(updateTime, 1000);
+  return () => clearInterval(intervalId);
+}, []);
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
