@@ -6,6 +6,7 @@ import { useEffect } from "react";
 interface ScheduleButtonProps {
     icon: string;
     label: string;
+    
 }
 
 export default function ScheduleButton({ icon, label }: ScheduleButtonProps) {

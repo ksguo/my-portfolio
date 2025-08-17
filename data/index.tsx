@@ -51,6 +51,8 @@ import {
 import { socialListsTypes } from "@/types";
 import { pagesListsType } from "@/types";
 
+
+//TODO ADD MORE PAGES SUCH AS BLOG
 export const pagesLists: pagesListsType[] = [
   {
     id: 1,
@@ -163,7 +165,7 @@ export const myExperience: myExperienceTypes[] = [
     company: "Perfect-iD GmbH",
     label: "Data-Exchange",
     description:
-      "Contributed to various software development projects, collaborating with cross-functional teams to deliver high-quality solutions.",
+      "Contributed to the development of a consumer-oriented web service that processes supermarket receipts and generates user-friendly summaries.",
     link: "https://www.perfect-id.com/",
     logo: perfectidLogo,
   },
@@ -297,7 +299,7 @@ export const myServices: myServicesTypes[] = [
     id: 2,
     title: "API Development",
     description:
-      "Designing and building scalable, secure, and well-documented RESTful and GraphQL APIs.",
+      "Designing and building scalable, secure, and well-documented RESTful APIs.",
     icon: webDevIcon,
     link: "/services",
   },
@@ -364,7 +366,7 @@ export const myServicesPlans: myServicesPlansTypes[] = [
     service: "API Development",
     price: "$60",
     description:
-      "Designing and building scalable, secure, and well-documented RESTful and GraphQL APIs.",
+      "Designing and building scalable, secure, and well-documented RESTful APIs.",
     completedWorks: "30+",
     experience: "6+",
     totalHoursWorked: "420 hours",

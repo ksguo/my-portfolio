@@ -10,6 +10,8 @@ import Tooltip from '../ui/Tooltop';
 import { pagesLists } from '@/data';
 import { motion } from "framer-motion"
 
+//TODO ADD MORE PAGES SUCH AS BLOG, ETC
+
 interface SideNavbarProps {
     isMenuOpen?: boolean;
 }
