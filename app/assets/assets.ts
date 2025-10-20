@@ -14,6 +14,7 @@ import youtube from "@assets/youtube.svg";
 
 import briefcaseIconley from "@assets/briefcase-icon.svg";
 import perfectidLogo from "@assets/perfect-id-logo.svg";
+import BMW_Logo from "@assets/BMW_logo.svg";
 
 import stackIcon from "@assets/stack.svg";
 import FastAPI from "@assets/FastAPI.svg";
@@ -75,6 +76,7 @@ export {
   spotify,
   briefcaseIconley,
   perfectidLogo,
+  BMW_Logo,
   stackIcon,
   FastAPI,
   Django,

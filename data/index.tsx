@@ -13,6 +13,7 @@ import {
   snapchat,
   spotify,
   perfectidLogo,
+  BMW_Logo,
   webDesignIcon,
   webDevIcon,
   facebookIcon,
@@ -160,6 +161,17 @@ export const counterLists: counterListsType[] = [
 export const myExperience: myExperienceTypes[] = [
   {
     id: 1,
+    year: "2025-10 - present",
+    title: "Software Developer Intern",
+    company: "BMW Group",
+    label: "Full-Stack Development",
+    description:
+      "Supported the development and optimization of a vehicle data platform within BMW’s digital ecosystem.",
+    link: "https://www.bmwgroup.com/",
+    logo: BMW_Logo,
+  },
+  {
+    id: 2,
     year: "2024-03 - 2024-08",
     title: "Student Software Developer",
     company: "Perfect-iD GmbH",
